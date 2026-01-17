@@ -88,7 +88,7 @@ const isDark = computed({
   },
 });
 
-const { setLocale } = useI18n();
+const switchLocalePath = useSwitchLocalePath();
 
 const navItems = computed(() => [
   {
@@ -104,20 +104,20 @@ const navItems = computed(() => [
   },
 ]);
 
-const languageItems = [
+const languageItems = computed(() => [
   [
     {
       label: "English",
       icon: "i-heroicons-flag-usa-20-solid",
-      click: () => setLocale("en"),
+      to: switchLocalePath("en"),
     },
   ],
   [
     {
       label: "中文 (Traditional)",
-      click: () => setLocale("zhTW"),
+      click: () => {}, // empty click handler to prevent error if click is expected, but 'to' should take precedence in UDropdown items
+      to: switchLocalePath("zhTW"),
     },
   ],
-  // JP removed as only EN/TW requested
-];
+]);
 </script>

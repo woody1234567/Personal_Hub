@@ -11,12 +11,11 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
   ],
   i18n: {
+    defaultLocale: "en",
     locales: [
       { code: "en", file: "en.json" },
       { code: "zhTW", file: "zhTW.json" },
     ],
-    defaultLocale: "en",
-    strategy: "no_prefix",
     langDir: "locales",
   },
   // nuxt.config.ts
