@@ -81,19 +81,19 @@ const links = computed(() => [
     title: t("showcase.portfolio"),
     description: t("showcase.portfolio_desc"),
     url: "https://cosmology.studywithwoody.site",
-    icon: "i-heroicons-archive-box",
+    icon: "i-heroicons:sparkles-solid",
   },
   {
     title: t("showcase.snippets"),
     description: t("showcase.snippets_desc"),
     url: "https://architecture.studywithwoody.site",
-    icon: "i-heroicons-code-bracket",
+    icon: "i-heroicons:building-office",
   },
   {
     title: t("showcase.photos"),
     description: t("showcase.photos_desc"),
     url: "https://investment.studywithwoody.site",
-    icon: "i-heroicons-camera",
+    icon: "i-heroicons:presentation-chart-line",
   },
 ]);
 </script>

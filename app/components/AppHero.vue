@@ -22,7 +22,7 @@
         <h1
           class="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-          {{ $t("hero.greeting") }} <span class="text-primary-500">Johan</span>
+          {{ $t("hero.greeting") }} <span class="text-primary-500"> Woody</span>
         </h1>
         <p
           class="text-xl md:text-2xl text-gray-500 dark:text-gray-400 font-light"
@@ -50,7 +50,7 @@
           icon="i-simple-icons-github"
           color="neutral"
           variant="ghost"
-          to="https://github.com"
+          to="https://github.com/woody1234567"
           target="_blank"
           aria-label="GitHub"
         />
@@ -58,17 +58,17 @@
           icon="i-simple-icons-linkedin"
           color="neutral"
           variant="ghost"
-          to="https://linkedin.com"
+          to="https://www.linkedin.com/in/chun-wei-hsu19990703/"
           target="_blank"
           aria-label="LinkedIn"
         />
         <UButton
-          icon="i-simple-icons-twitter"
+          icon="i-simple-icons-youtube"
           color="neutral"
           variant="ghost"
-          to="https://twitter.com"
+          to="https://www.youtube.com/@Woodyhsu-vlog"
           target="_blank"
-          aria-label="Twitter"
+          aria-label="youtube"
         />
       </div>
     </div>
