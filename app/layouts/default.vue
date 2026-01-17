@@ -92,15 +92,9 @@ const switchLocalePath = useSwitchLocalePath();
 
 const navItems = computed(() => [
   {
-    label: "Home", // Text labels for navigation usually need $t inside computed if reactive
+    label: $t("nav.home"), // Text labels for navigation usually need $t inside computed if reactive
     icon: "i-heroicons-home",
     to: "/",
-  },
-  {
-    label: "Tech Blog",
-    icon: "i-heroicons-book-open",
-    to: "https://blog.example.com",
-    target: "_blank",
   },
 ]);
 

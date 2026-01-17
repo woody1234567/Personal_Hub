@@ -68,31 +68,31 @@ const links = computed(() => [
   {
     title: t("showcase.tech_blog"),
     description: t("showcase.tech_blog_desc"),
-    url: "https://blog.example.com",
+    url: "https://techblog.studywithwoody.site",
     icon: "i-heroicons-book-open",
   },
   {
     title: t("showcase.teaching"),
     description: t("showcase.teaching_desc"),
-    url: "https://courses.example.com",
+    url: "https://tutorai.studywithwoody.site",
     icon: "i-heroicons-academic-cap",
   },
   {
     title: t("showcase.portfolio"),
     description: t("showcase.portfolio_desc"),
-    url: "https://v1.example.com",
+    url: "https://cosmology.studywithwoody.site",
     icon: "i-heroicons-archive-box",
   },
   {
     title: t("showcase.snippets"),
     description: t("showcase.snippets_desc"),
-    url: "https://snippets.example.com",
+    url: "https://architecture.studywithwoody.site",
     icon: "i-heroicons-code-bracket",
   },
   {
     title: t("showcase.photos"),
     description: t("showcase.photos_desc"),
-    url: "https://photos.example.com",
+    url: "https://investment.studywithwoody.site",
     icon: "i-heroicons-camera",
   },
 ]);

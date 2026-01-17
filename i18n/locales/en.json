@@ -11,17 +11,17 @@
     "explore": "Explore"
   },
   "showcase": {
-    "title": "My Universe",
+    "title": "My Works",
     "tech_blog": "Tech Blog",
-    "tech_blog_desc": "Deep dives into web development, Nuxt, and modern frontend architecture.",
-    "teaching": "Teaching Platform",
-    "teaching_desc": "Premium courses and video tutorials on Full Stack development.",
-    "portfolio": "Portfolio V1",
-    "portfolio_desc": "Archive of my previous work and early experiments in design.",
-    "snippets": "Code Snippets",
-    "snippets_desc": "A collection of useful helper functions and reusable components.",
-    "photos": "Photography",
-    "photos_desc": "Visual stories captured through my lens during my travels."
+    "tech_blog_desc": "Deep dives into Web Development, Nuxt, Modern Frontend Architecture, and cutting-edge tech trends.",
+    "teaching": "TutorAI Learning Platform",
+    "teaching_desc": "Empowering students to learn efficiently through digitalization and AI technology, helping teachers and parents track learning progress accurately.",
+    "portfolio": "Academia Sinica Summer Internship Demo",
+    "portfolio_desc": "Documentation of my summer internship at Academia Sinica, focusing on observing Cosmic Microwave Background Radiation (CMB) to understand how early universe Dark Matter affects cosmic evolution.",
+    "snippets": "Interactive Architectural Model",
+    "snippets_desc": "Transforming architectural models into interactive experiences using Three.js, allowing users to deeply explore structure and functionality.",
+    "photos": "Investment Notes",
+    "photos_desc": "Records of my investment learning notes, analyzing and applying tools like stocks, bonds, futures, and options."
   },
   "footer": {
     "rights": "All rights reserved."

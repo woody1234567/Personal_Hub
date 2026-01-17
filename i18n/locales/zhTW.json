@@ -1,8 +1,8 @@
 {
   "hero": {
     "greeting": "你好，我是",
-    "role": "開發者、教育家 & 技術愛好者",
-    "description": "歡迎來到我的數位中心。在這裡，你可以找到我最新的專案、技術教程和學習資源。我熱愛建立 Web 應用並分享我所學到的知識。",
+    "role": "軟體開發者、老師 & 新技術愛好者",
+    "description": "歡迎來到我的數位中心。在這裡，你可以找到我最新的專案、技術部落格和學習資源。我熱愛建立 Web 應用並分享我所學到的知識。",
     "contact": "聯絡我"
   },
   "nav": {
@@ -11,17 +11,17 @@
     "explore": "探索"
   },
   "showcase": {
-    "title": "我的宇宙",
+    "title": "我的作品",
     "tech_blog": "技術部落格",
-    "tech_blog_desc": "深入探討 Web 開發、Nuxt 和現代前端架構。",
-    "teaching": "教學平台",
-    "teaching_desc": "關於全端開發的優質課程和影片教學。",
-    "portfolio": "作品集 V1",
-    "portfolio_desc": "我之前的作品存檔以及早期的設計實驗。",
-    "snippets": "程式碼片段",
-    "snippets_desc": "收集有用的輔助函式和可重複使用的元件。",
-    "photos": "攝影作品",
-    "photos_desc": "透過我的鏡頭捕捉旅行中的視覺故事。"
+    "tech_blog_desc": "深入探討 Web 開發、Nuxt、現代前端架構以及科技前沿發展。",
+    "teaching": "TutorAI教學平台",
+    "teaching_desc": "透過數位化以及AI技術、幫助學生更有效率的學習，老師、家長更快更精準掌握學生學習狀況。",
+    "portfolio": "中央研究院暑期實習學習demo",
+    "portfolio_desc": "記錄我在中央研究院暑期實習的學習，主要是有關於透過宇宙微波背景輻射(Cosmic Microwave Background Radiation,CMB)的觀測，了解宇宙早期暗物質存量如何影響宇宙的演化。",
+    "snippets": "互動式建築模型",
+    "snippets_desc": "透過Three.js將建築模型轉換為互動式模型，讓使用者可以更深入的了解建築的結構和功能。",
+    "photos": "投資筆記",
+    "photos_desc": "記錄我的投資學習筆記，包括股票、債券、期貨、選擇權等投資工具的分析和應用。"
   },
   "footer": {
     "rights": "版權所有。"
