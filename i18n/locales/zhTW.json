@@ -16,12 +16,12 @@
     "tech_blog_desc": "深入探討 Web 開發、Nuxt、現代前端架構以及科技前沿發展。",
     "teaching": "TutorAI教學平台",
     "teaching_desc": "透過數位化以及AI技術、幫助學生更有效率的學習，老師、家長更快更精準掌握學生學習狀況。",
-    "portfolio": "中央研究院暑期實習學習demo",
-    "portfolio_desc": "記錄我在中央研究院暑期實習的學習，主要是有關於透過宇宙微波背景輻射(Cosmic Microwave Background Radiation,CMB)的觀測，了解宇宙早期暗物質存量如何影響宇宙的演化。",
-    "snippets": "互動式建築模型",
-    "snippets_desc": "透過Three.js將建築模型轉換為互動式模型，讓使用者可以更深入的了解建築的結構和功能。",
-    "photos": "投資筆記",
-    "photos_desc": "記錄我的投資學習筆記，包括股票、債券、期貨、選擇權等投資工具的分析和應用。"
+    "cosmology": "中央研究院暑期實習",
+    "cosmology_desc": "記錄我在中央研究院暑期實習的學習，主要是有關於透過宇宙微波背景輻射(Cosmic Microwave Background Radiation,CMB)的觀測，了解宇宙早期暗物質存量如何影響宇宙的演化。",
+    "architecture": "互動式建築模型",
+    "architecture_desc": "透過Three.js將建築模型轉換為互動式模型，讓使用者可以更深入的了解建築的結構和功能。",
+    "investment": "投資筆記",
+    "investment_desc": "記錄我的投資學習筆記，包括股票、債券、期貨、選擇權等投資工具的分析和應用。"
   },
   "footer": {
     "rights": "版權所有。"
