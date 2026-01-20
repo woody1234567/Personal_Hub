@@ -101,5 +101,11 @@ const links = computed(() => [
     url: "https://physimhub.studywithwoody.site",
     icon: "i-heroicons:presentation-chart-line",
   },
+  {
+    title: t("showcase.tutoring"),
+    description: t("showcase.tutoring_desc"),
+    url: "https://tutoring.ad.studywithwoody.site",
+    icon: "i-heroicons:presentation-chart-line",
+  },
 ]);
 </script>

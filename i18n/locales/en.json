@@ -23,7 +23,9 @@
     "investment": "Investment Notes",
     "investment_desc": "Records of my investment learning notes, analyzing and applying tools like stocks, bonds, futures, and options.",
     "Physim": "PhysimHub",
-    "Physim_desc": "PhysimHub is a platform that combines physics simulation and education, aiming to allow learners to explore the mysteries of the physical world more intuitively through interactive experiments and visualization tools."
+    "Physim_desc": "PhysimHub is a platform that combines physics simulation and education, aiming to allow learners to explore the mysteries of the physical world more intuitively through interactive experiments and visualization tools.",
+    "tutoring": "Tutoring",
+    "tutoring_desc": "Tutoring students in mathematics,economics and physics. Especially for the AP exams and IB exams and Olympiad competitions preparation."
   },
   "footer": {
     "rights": "All rights reserved."
