@@ -13,8 +13,12 @@
           Chun-Wei, Hsu
         </h1>
         <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
-          <UBadge color="primary" variant="subtle">Data Scientist</UBadge>
-          <UBadge color="neutral" variant="subtle">Economics & Physics</UBadge>
+          <UBadge color="primary" variant="subtle">{{
+            $t("cv.role_ds")
+          }}</UBadge>
+          <UBadge color="neutral" variant="subtle">{{
+            $t("cv.role_ep")
+          }}</UBadge>
         </div>
         <div
           class="flex flex-wrap justify-center md:justify-start gap-1 text-sm text-gray-600 dark:text-gray-400"
@@ -72,7 +76,7 @@
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <UIcon name="i-heroicons-briefcase" class="text-primary-500" />
-            Professional Experience
+            {{ $t("cv.experience") }}
           </h2>
           <UTimeline :items="experienceItems" />
         </section>
@@ -80,7 +84,7 @@
         <section>
           <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
             <UIcon name="i-heroicons-academic-cap" class="text-primary-500" />
-            Education
+            {{ $t("cv.education") }}
           </h2>
           <UTimeline :items="educationItems" />
         </section>
@@ -96,7 +100,7 @@
                   name="i-heroicons-wrench-screwdriver"
                   class="text-primary-500"
                 />
-                Technical Skills
+                {{ $t("cv.skills") }}
               </h3>
             </template>
             <div class="space-y-4">
@@ -126,12 +130,12 @@
             <template #header>
               <h3 class="font-bold flex items-center gap-2">
                 <UIcon name="i-heroicons-language" class="text-primary-500" />
-                Languages
+                {{ $t("cv.languages") }}
               </h3>
             </template>
             <ul class="text-sm space-y-1 text-gray-600 dark:text-gray-400">
-              <li>English (TOEFL 93, TOEIC 945)</li>
-              <li>Mandarin (Native)</li>
+              <li>{{ $t("cv.lang_items.english") }}</li>
+              <li>{{ $t("cv.lang_items.mandarin") }}</li>
             </ul>
           </UCard>
         </section>
@@ -144,7 +148,7 @@
                   name="i-heroicons-rocket-launch"
                   class="text-primary-500"
                 />
-                Featured Projects
+                {{ $t("cv.featured_projects") }}
               </h3>
             </template>
             <div class="space-y-6">
@@ -164,7 +168,7 @@
                   target="_blank"
                   icon="i-heroicons-arrow-top-right-on-square-20-solid"
                   trailing
-                  >View Site</UButton
+                  >{{ $t("cv.view_site") }}</UButton
                 >
               </div>
             </div>
@@ -176,7 +180,7 @@
             <template #header>
               <h3 class="font-bold flex items-center gap-2">
                 <UIcon name="i-heroicons-light-bulb" class="text-primary-500" />
-                Domain Knowledge
+                {{ $t("cv.domain_knowledge") }}
               </h3>
             </template>
             <div class="flex flex-wrap gap-1.5">
@@ -197,48 +201,45 @@
 </template>
 
 <script setup lang="ts">
-const experienceItems = [
+const { t } = useI18n();
+
+const experienceItems = computed(() => [
   {
     date: "2022.2 ~ 2022.5",
-    title: "Data Analyst | FunNow co.",
-    description:
-      "Assisted FunNow in analyzing the post-pandemic development strategy for food delivery and takeaway services. Helped strike a 30% higher cooperation rate with local food businesses by generating a recommended list of potential partner businesses using random forest and decision tree models.",
+    title: t("cv.exp_items.funnow.title"),
+    description: t("cv.exp_items.funnow.desc"),
   },
   {
     date: "2021.9 ~ 2022.6",
-    title: "NTUDAC Club member | NTU Data Analytics Club",
-    description:
-      "Performed data analysis using SQL, Python, and Tableau, and built machine learning models with scikit-learn for real-world datasets. Collaborated on industry-sponsored data projects, delivering data-driven insights through analytical workflows.",
+    title: t("cv.exp_items.ntudac.title"),
+    description: t("cv.exp_items.ntudac.desc"),
   },
   {
     date: "2021.6 - 2021.8",
-    title: "Summer Internship | Academia Sinica",
-    description:
-      "Assist the supervising professor in exploring cosmology packages in Python, such as CAMB. Construct a ΛCDM cosmological model and investigate how the abundance of dark matter in the early universe influences baryon acoustic oscillations (BAO).",
+    title: t("cv.exp_items.sinica.title"),
+    description: t("cv.exp_items.sinica.desc"),
   },
-];
+]);
 
-const educationItems = [
+const educationItems = computed(() => [
   {
     date: "2024.9 - 2025.3",
-    title: "Universität Hamburg",
-    description:
-      "Exchange student, Socioeconomics Master's degree. Relevant Courses: Computational Economics, International Finance and Investment.",
+    title: t("cv.edu_items.hamburg.title"),
+    description: t("cv.edu_items.hamburg.desc"),
   },
   {
-    date: "2022.9 ~ 2024.7",
-    title: "National Taiwan University",
-    description:
-      "Master of Science in Economics. GPA: 3.9 / 4.3. Research Field: Macroeconomics. Relevant Courses: Computational Methods for Econometrics, Data Science and Social Inquiry, Econometric Theory. Scholarship: 112 Shanghai Commercial and Savings Bank scholarship.",
+    date: "2022.9 ~ 2025.7",
+    title: t("cv.edu_items.ntu_ms.title"),
+    description: t("cv.edu_items.ntu_ms.desc"),
   },
   {
     date: "2017.9 - 2022.6",
-    title: "National Taiwan University",
-    description:
-      "Bachelor of Science in Physics with minor in Economics. Relevant Courses: Coding for Physics Simulation, Introduction to Numerical Analysis. Award: 2nd in 2022 DATA IDEATHON competition, 2019 NTU Student Social Contribution Special Award.",
+    title: t("cv.edu_items.ntu_bs.title"),
+    description: t("cv.edu_items.ntu_bs.desc"),
   },
-];
+]);
 
+// Skills kept static as they are proper nouns
 const skillGroups = {
   Technical: ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"],
   Database: ["MySQL", "PostgreSQL"],
@@ -247,39 +248,35 @@ const skillGroups = {
   Deployment: ["Vercel", "Docker", "Railway"],
 };
 
-const domainKnowledge = [
-  "Data Analysis",
-  "Data Visualization",
-  "Machine Learning",
-  "Economic Modeling",
-  "Statistics",
-  "Physics",
-];
+const domainKnowledge = computed(() => [
+  t("cv.domains.analysis"),
+  t("cv.domains.viz"),
+  t("cv.domains.ml"),
+  t("cv.domains.econ"),
+  t("cv.domains.stats"),
+  t("cv.domains.physics"),
+]);
 
-const projects = [
+const projects = computed(() => [
   {
-    title: "Tutor AI",
-    description:
-      "Developed an digital learning platform that enables parents to monitor students’ learning progress in real time, while providing students with a 24/7 AI-powered digital tutor.",
-    url: "https://tutorai.studywithwoody.site/",
+    title: t("cv.projects.physim.title"),
+    description: t("cv.projects.physim.desc"),
+    url: "https://physimhub.studywithwoody.site/",
   },
   {
-    title: "Tech blog",
-    description:
-      "My tech blog focused on Vue, Nuxt, Python, and AI, sharing my learning notes during development, and practical web development tips.",
+    title: t("cv.projects.tech_blog.title"),
+    description: t("cv.projects.tech_blog.desc"),
     url: "https://techblog.studywithwoody.site/",
   },
   {
-    title: "PhysimHub",
-    description:
-      "Developed an interactive physics simulation website that supports teachers in instruction through real-time web-based interactions.",
-    url: "https://physimhub.studywithwoody.site/",
+    title: t("cv.projects.tutor_ai.title"),
+    description: t("cv.projects.tutor_ai.desc"),
+    url: "https://tutorai.studywithwoody.site/",
   },
-];
+]);
 
 useSeoMeta({
-  title: "CV | Chun-Wei, Hsu",
-  description:
-    "Data Scientist and Economics/Physics background. Portfolio and resume of Chun-Wei, Hsu.",
+  title: t("cv.title") + " | Chun-Wei, Hsu",
+  description: t("cv.meta_description"),
 });
 </script>

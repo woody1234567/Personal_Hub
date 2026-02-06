@@ -84,7 +84,7 @@
         <UButton
           v-for="project in projects"
           :key="project.slug"
-          :to="`/projects#project-${project.slug}`"
+          :to="`${localePath('/projects')}#project-${project.slug}`"
           :icon="project.icon"
           color="neutral"
           variant="subtle"
@@ -99,4 +99,5 @@
 
 <script setup lang="ts">
 const { projects } = useProjects();
+const localePath = useLocalePath();
 </script>

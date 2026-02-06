@@ -31,5 +31,72 @@
   },
   "footer": {
     "rights": "版權所有。"
+  },
+  "cv": {
+    "title": "履歷",
+    "meta_description": "資料科學家與經濟/物理背景。許鈞維的個人作品集與履歷。",
+    "role_ds": "資料科學家",
+    "role_ep": "經濟學 & 物理學",
+    "experience": "工作經歷",
+    "education": "學歷",
+    "skills": "技術技能",
+    "languages": "語言能力",
+    "featured_projects": "精選專案",
+    "domain_knowledge": "領域知識",
+    "view_site": "瀏覽網站",
+    "exp_items": {
+      "funnow": {
+        "title": "數據分析師 | FunNow",
+        "desc": "協助分析 FunNow 在後疫情時代的外帶與外送發展策略。透過隨機森林與決策樹模型產生潛在合作商家推薦名單，協助提升 30% 當地餐飲業者的合作率。"
+      },
+      "ntudac": {
+        "title": "社團成員 | 台大資料分析社 (NTUDAC)",
+        "desc": "使用 SQL、Python 和 Tableau 進行數據分析，並使用 scikit-learn 建立機器學習模型處理真實世界數據。與企業合作數據專案，透過分析流程提供數據驅動的洞察。"
+      },
+      "sinica": {
+        "title": "暑期實習生 | 中央研究院",
+        "desc": "協助指導教授探索 Python 中的宇宙學套件（如 CAMB）。建構 ΛCDM 宇宙模型，並研究早期宇宙中暗物質的豐度如何影響重子聲學振盪 (BAO)。"
+      }
+    },
+    "edu_items": {
+      "hamburg": {
+        "title": "漢堡大學 (Universität Hamburg)",
+        "desc": "交換學生，社會經濟學碩士。相關課程：計算經濟學、國際金融與投資。"
+      },
+      "ntu_ms": {
+        "title": "國立臺灣大學",
+        "desc": "經濟學研究所碩士。GPA: 3.9 / 4.3。研究領域：總體經濟學。相關課程：計量經濟學計算方法、資料科學與社會探究、計量理論。獎學金：112學年度上海商業儲蓄銀行獎學金。"
+      },
+      "ntu_bs": {
+        "title": "國立臺灣大學",
+        "desc": "物理學系學士，輔修經濟學。相關課程：物理模擬程式設計、數值分析導論。獎項：2022 DATA IDEATHON 競賽第二名、2019 台大學生社會貢獻特別獎。"
+      }
+    },
+    "lang_items": {
+      "english": "英語 (TOEFL 93, TOEIC 945)",
+      "mandarin": "中文 (母語)"
+    },
+    "projects": {
+      "tutor_ai": {
+        "title": "Tutor AI",
+        "desc": "開發一個數位學習平台，讓家長能即時監控學生的學習進度，同時為學生提供 24/7 的 AI 數位家教。"
+      },
+      "tech_blog": {
+        "title": "技術部落格",
+        "desc": "我的技術部落格，專注於 Vue、Nuxt、Python 和 AI，分享開發過程中的學習筆記以及實用的 Web 開發技巧。"
+      },
+      "physim": {
+        "title": "PhysimHub",
+        "desc": "開發一個互動式物理模擬網站，透過網頁即時互動支援教師進行教學。"
+      }
+    },
+    "domains": {
+      "analysis": "數據分析",
+      "viz": "數據視覺化",
+      "ml": "機器學習",
+      "econ": "經濟模型",
+      "stats": "統計學",
+      "physics": "物理學"
+    }
   }
 }

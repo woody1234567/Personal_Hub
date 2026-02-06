@@ -89,22 +89,23 @@ const isDark = computed({
 });
 
 const switchLocalePath = useSwitchLocalePath();
+const localePath = useLocalePath();
 
 const navItems = computed(() => [
   {
     label: $t("nav.home"),
     icon: "i-heroicons-home",
-    to: "/",
+    to: localePath("/"),
   },
   {
     label: $t("nav.projects"),
     icon: "i-heroicons-briefcase",
-    to: "/projects",
+    to: localePath("/projects"),
   },
   {
     label: $t("nav.cv"),
     icon: "i-heroicons-document-text",
-    to: "/cv",
+    to: localePath("/cv"),
   },
 ]);
 
