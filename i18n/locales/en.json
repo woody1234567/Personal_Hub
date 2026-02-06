@@ -8,6 +8,8 @@
   "nav": {
     "home": "Home",
     "blog": "Tech Blog",
+    "projects": "Projects",
+    "cv": "CV",
     "explore": "Explore"
   },
   "showcase": {

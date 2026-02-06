@@ -3,11 +3,6 @@
     <UContainer>
       <main class="space-y-12 pb-24">
         <AppHero />
-        <USeparator
-          label="Explore"
-          :ui="{ label: 'text-primary-500 font-medium' }"
-        />
-        <ProjectShowcase />
       </main>
 
       <footer
@@ -28,8 +23,7 @@ useHead({
   meta: [
     {
       name: "description",
-      content:
-        "Personal hub leading to my technical blog, courses, and portfolio.",
+      content: "Personal hub leading to my personal projects.",
     },
   ],
 });
