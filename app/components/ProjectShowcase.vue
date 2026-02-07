@@ -14,7 +14,7 @@
         v-for="item in projects"
         :id="`project-${item.slug}`"
         :key="item.title"
-        :to="`/projects#project-${item.slug}`"
+        :to="`${item.url}`"
         target="_blank"
         class="group relative scroll-mt-24"
       >
