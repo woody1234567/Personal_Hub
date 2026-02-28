@@ -14,7 +14,7 @@ export const useProjects = () => {
       slug: "tech-blog",
       title: t("showcase.tech_blog"),
       description: t("showcase.tech_blog_desc"),
-      url: "https://techblog.studywithwoody.site",
+      url: "https://woodytechblog.studywithwoody.site/",
       icon: "i-heroicons-book-open",
     },
     {
