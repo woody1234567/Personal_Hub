@@ -14,8 +14,15 @@ export const useProjects = () => {
       slug: "tech-blog",
       title: t("showcase.tech_blog"),
       description: t("showcase.tech_blog_desc"),
-      url: "https://woodytechblog.studywithwoody.site/",
+      url: "https://techblog.studywithwoody.com",
       icon: "i-heroicons-book-open",
+    },
+    {
+      slug: "RAG system",
+      title: t("showcase.RAG system"),
+      description: t("showcase.RAG system_desc"),
+      url: "https://ragsystem.studywithwoody.com",
+      icon: "i-heroicons:academic-cap",
     },
     {
       slug: "tutor-ai",
@@ -28,7 +35,7 @@ export const useProjects = () => {
       slug: "cosmology",
       title: t("showcase.cosmology"),
       description: t("showcase.cosmology_desc"),
-      url: "https://cosmology.studywithwoody.site",
+      url: "https://cosmology.studywithwoody.com",
       icon: "i-heroicons:sparkles-solid",
     },
     {

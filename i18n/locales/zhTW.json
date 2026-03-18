@@ -27,7 +27,9 @@
     "Physim": "PhysimHub 物理模擬教育",
     "Physim_desc": "PhysimHub 是一個結合物理模擬與教育的平台，旨在透過互動式實驗與視覺化工具，讓學習者能更直觀地探索物理世界的奧秘。",
     "tutoring": "家教",
-    "tutoring_desc": "家教學生數學、經濟學和物理。特別是國際升學中的AP考試、IB考試和奧林匹克競賽的準備。"
+    "tutoring_desc": "家教學生數學、經濟學和物理。特別是國際升學中的AP考試、IB考試和奧林匹克競賽的準備。",
+    "RAG system": "RAG system",
+    "RAG system_desc": "實作BM25+Dense檢索，RRF融合檢索結果，reranker重新排序的RAG技術，讓AI可以針對上傳文件進行語意查詢。"
   },
   "footer": {
     "rights": "版權所有。"
@@ -35,8 +37,7 @@
   "cv": {
     "title": "履歷",
     "meta_description": "資料科學家與經濟/物理背景。許鈞維的個人作品集與履歷。",
-    "role_ds": "資料科學家",
-    "role_ep": "經濟學 & 物理學",
+    "roles": ["資料科學家", "全端工程師", "教育工作者", "新技術愛好者"],
     "experience": "工作經歷",
     "education": "學歷",
     "skills": "技術技能",

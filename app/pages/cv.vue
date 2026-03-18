@@ -13,12 +13,14 @@
           Chun-Wei, Hsu
         </h1>
         <div class="flex flex-wrap justify-center md:justify-start gap-2 mb-4">
-          <UBadge color="primary" variant="subtle">{{
-            $t("cv.role_ds")
-          }}</UBadge>
-          <UBadge color="neutral" variant="subtle">{{
-            $t("cv.role_ep")
-          }}</UBadge>
+          <UBadge
+            v-for="(role, index) in roles"
+            :key="index"
+            :color="index === 0 ? 'primary' : 'neutral'"
+            variant="subtle"
+          >
+            {{ rt(role) }}
+          </UBadge>
         </div>
         <div
           class="flex flex-wrap justify-center md:justify-start gap-1 text-sm text-gray-600 dark:text-gray-400"
@@ -227,23 +229,25 @@
 <script setup lang="ts">
 const { t, tm, rt } = useI18n();
 
+const roles = computed(() => tm("cv.roles") as string[]);
+
 const experienceItems = computed(() => [
   {
     date: "2022.2 ~ 2022.5",
     title: t("cv.exp_items.funnow.title"),
-    description: tm("cv.exp_items.funnow.desc") as any,
+    description: tm("cv.exp_items.funnow.desc") as string[],
     icon: "heroicons:chart-bar-square",
   },
   {
     date: "2021.9 ~ 2022.6",
     title: t("cv.exp_items.ntudac.title"),
-    description: tm("cv.exp_items.ntudac.desc") as any,
+    description: tm("cv.exp_items.ntudac.desc") as string[],
     icon: "heroicons:user-16-solid",
   },
   {
     date: "2021.6 - 2021.8",
     title: t("cv.exp_items.sinica.title"),
-    description: tm("cv.exp_items.sinica.desc") as any,
+    description: tm("cv.exp_items.sinica.desc") as string[],
     icon: "heroicons:rocket-launch",
   },
 ]);
@@ -252,25 +256,26 @@ const educationItems = computed(() => [
   {
     date: "2024.9 - 2025.3",
     title: t("cv.edu_items.hamburg.title"),
-    description: tm("cv.edu_items.hamburg.desc") as any,
+    description: tm("cv.edu_items.hamburg.desc") as string[],
     icon: "i-heroicons-academic-cap",
   },
   {
     date: "2022.9 ~ 2025.7",
     title: t("cv.edu_items.ntu_ms.title"),
-    description: tm("cv.edu_items.ntu_ms.desc") as any,
+    description: tm("cv.edu_items.ntu_ms.desc") as string[],
     icon: "i-heroicons-academic-cap",
   },
   {
     date: "2017.9 - 2022.6",
     title: t("cv.edu_items.ntu_bs.title"),
-    description: tm("cv.edu_items.ntu_bs.desc") as any,
+    description: tm("cv.edu_items.ntu_bs.desc") as string[],
     icon: "i-heroicons-academic-cap",
   },
 ]);
 
 // Skills kept static as they are proper nouns
 const skillGroups = {
+  "AI Tools": ["Claude code", "antigravity", "openclaw"],
   Technical: ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"],
   Database: ["MySQL", "PostgreSQL"],
   Web: ["Vue", "Nuxt", "Typescript", "ThreeJS"],

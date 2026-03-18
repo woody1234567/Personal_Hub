@@ -27,7 +27,9 @@
     "Physim": "PhysimHub",
     "Physim_desc": "PhysimHub is a platform that combines physics simulation and education, aiming to allow learners to explore the mysteries of the physical world more intuitively through interactive experiments and visualization tools.",
     "tutoring": "Tutoring",
-    "tutoring_desc": "Tutoring students in economics, physics and mathematics. Especially for the international AP exams and IB exams and Olympiad competitions preparation."
+    "tutoring_desc": "Tutoring students in economics, physics and mathematics. Especially for the international AP exams and IB exams and Olympiad competitions preparation.",
+    "RAG system": "RAG system",
+    "RAG system_desc": "Implement BM25+Dense retrieval, RRF fusion retrieval results, reranker re-ranking RAG technology, allowing AI to perform semantic queries on uploaded documents."
   },
   "footer": {
     "rights": "All rights reserved."
@@ -35,8 +37,7 @@
   "cv": {
     "title": "CV",
     "meta_description": "Data Scientist and Economics/Physics background. Portfolio and resume of Chun-Wei, Hsu.",
-    "role_ds": "Data Scientist",
-    "role_ep": "Economics & Physics",
+    "roles": ["Data Scientist", "Full-stack Developer", "Educator", "Tech Enthusiast"],
     "experience": "Professional Experience",
     "education": "Education",
     "skills": "Technical Skills",
