@@ -29,7 +29,11 @@
     "tutoring": "Tutoring",
     "tutoring_desc": "Tutoring students in economics, physics and mathematics. Especially for the international AP exams and IB exams and Olympiad competitions preparation.",
     "RAG system": "RAG system",
-    "RAG system_desc": "Implement BM25+Dense retrieval, RRF fusion retrieval results, reranker re-ranking RAG technology, allowing AI to perform semantic queries on uploaded documents."
+    "RAG system_desc": "Implement BM25+Dense retrieval, RRF fusion retrieval results, reranker re-ranking RAG technology, allowing AI to perform semantic queries on uploaded documents.",
+    "Fraud detection": "Fraud detection",
+    "Fraud detection_desc": "Fraud detection system using machine learning methods such as XGBoost, Decision Tree and Logistic Regression.",
+    "slides": "Slides",
+    "slides_desc": "This is my website for sharing slides."
   },
   "footer": {
     "rights": "All rights reserved."

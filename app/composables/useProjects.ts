@@ -66,6 +66,20 @@ export const useProjects = () => {
       url: "https://tutoring.ad.studywithwoody.site",
       icon: "i-heroicons:academic-cap",
     },
+    {
+      slug: "Fraud detection",
+      title: t("showcase.Fraud detection"),
+      description: t("showcase.Fraud detection_desc"),
+      url: "https://frauddetection.studywithwoody.com",
+      icon: "i-heroicons:banknotes",
+    },
+    {
+      slug: "slides",
+      title: t("showcase.slides"),
+      description: t("showcase.slides_desc"),
+      url: "https://slides.studywithwoody.com",
+      icon: "i-heroicons:presentation-chart-line",
+    }
   ]);
 
   return {

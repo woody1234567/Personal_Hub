@@ -29,7 +29,11 @@
     "tutoring": "家教",
     "tutoring_desc": "家教學生數學、經濟學和物理。特別是國際升學中的AP考試、IB考試和奧林匹克競賽的準備。",
     "RAG system": "RAG system",
-    "RAG system_desc": "實作BM25+Dense檢索，RRF融合檢索結果，reranker重新排序的RAG技術，讓AI可以針對上傳文件進行語意查詢。"
+    "RAG system_desc": "實作BM25+Dense檢索，RRF融合檢索結果，reranker重新排序的RAG技術，讓AI可以針對上傳文件進行語意查詢。",
+    "Fraud detection": "詐欺偵測",
+    "Fraud detection_desc": "詐欺偵測系統，使用機器學習方法，如XGBoost、決策樹和邏輯迴歸。",
+    "slides": "投影片",
+    "slides_desc": "這是我分享投影片的網站。"
   },
   "footer": {
     "rights": "版權所有。"
