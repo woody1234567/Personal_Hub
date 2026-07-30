@@ -275,12 +275,13 @@ const educationItems = computed(() => [
 
 // Skills kept static as they are proper nouns
 const skillGroups = {
-  "AI Tools": ["Claude code", "antigravity", "openclaw"],
-  Technical: ["Python", "FastAPI", "Scikit-learn", "Pandas", "NumPy"],
-  Database: ["MySQL", "PostgreSQL"],
-  Web: ["Vue", "Nuxt", "Typescript", "ThreeJS"],
+  "AI Agent": ["Hermes","OpenClaw"],
+  "AI Tools": ["Claude code", "Codex","opencode"],
+  Frontend: ["Vue", "Nuxt", "Typescript", "ThreeJS", "HTML", "CSS"],
+  Backend: ["Python", "java","FastAPI", "Springboot","Typescript"],
+  Database: ["MySQL", "PostgreSQL","Oracle","MS SQL Server"],
   Visualization: ["Tableau", "Matplotlib", "PlotJS"],
-  Deployment: ["Vercel", "Docker", "Railway"],
+  Deployment: ["Vercel", "Docker","zeabur","digitalocean"],
 };
 
 const domainKnowledge = computed(() => [
